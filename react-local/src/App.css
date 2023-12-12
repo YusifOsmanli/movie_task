@@ -1,0 +1,63 @@
+#navbarTogglerDemo02{
+  display: flex;
+  justify-content: space-between;
+
+}
+.card{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: purple;
+}
+
+.container-fluid{
+  background-color: purple;
+  height: 70px;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.all{
+  display: flex;
+ flex-wrap: wrap;
+ gap: 150px;
+justify-content: center ;
+}
+
+.wishlistBtn{
+  position: absolute;
+  z-index: 1;
+  top: 24px;
+  right: 20px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+}
+.list{
+  font-weight: bold;
+  font-size: 23px;
+  color: purple;
+}
+.deleteBtn{
+  background-color: purple;
+  color: white;
+  border: none;
+  font-weight: bold;
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.deleteBtn:hover{
+  background-color: rgb(79, 2, 79);
+}
